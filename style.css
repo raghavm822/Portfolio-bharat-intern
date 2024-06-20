@@ -1,0 +1,582 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#navbar{
+    background: linear-gradient(-90deg, #030304, rgb(8, 8, 85));
+    height: 650px;
+    width: 100%;
+    
+
+}
+
+#navbar .image-t{
+    width: 17%;
+    margin-top: -5.5%;
+    opacity: 30%;
+}
+
+#navbar nav{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
+}
+
+.logo h1{
+    font-size: 30px;
+    color: white;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.links a:hover{
+    color:#030304 ;
+    background-color: white;
+    border-radius: 10%;
+    transition: 0.3s ease all;
+}
+
+#home{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+#heading{
+    margin-left: 10%;
+    margin-top: 3.5%;
+    color: white;
+    width: 100%;
+}
+
+#heading .resume{
+    width: 20%;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+
+.resume:hover{
+    background-color: aqua;
+    color: #030304 !important;
+    transition: 0.3s;
+}
+
+#heading h3{
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+
+#heading h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+#heading span{
+    color: aqua;
+}
+
+#heading p{
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+
+#heading i{
+    padding-right: 10px;
+    color: aqua;
+}
+
+#image-edit img{
+    width: 50%;
+    margin-left: 40%;
+    
+}
+
+#about{
+    height: 600px;
+    width: 100%;
+    margin-top: 5px;
+    background: linear-gradient(90deg, #030304, rgb(8, 8, 85));
+}
+
+
+.head h1{
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+#contain{
+    
+    align-items:center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: -8%;
+}
+
+#image-edit2{
+    width: 100%;
+}
+
+#image-edit2 img{
+    width: 100%;
+}
+
+
+
+#text-add h3{
+    color: white;
+    margin-top: -4%;
+    width: 80%;
+}
+
+#text-add h1{
+    color: yellow;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 80%;
+   
+}
+
+#text-add hr{
+    width: 36%;
+}
+
+#text-add h4{
+    color: white;
+    padding-top: 10px;
+    width: 80%;
+}
+
+#text-add span{
+    color: aqua;
+}
+
+#boxs{
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+#skills{
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(-90deg, #030304, rgb(8, 8, 85));
+    margin-top: 5px;
+}
+
+#box1 img{
+    height: 400px;
+    width: 90%;
+    background-color: aqua;
+}
+
+#box1 h1{
+    color: white;
+}
+
+#box1 p{
+    color: aqua;
+}
+
+#skills-text h1{
+    color: white;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#contact{
+    background: linear-gradient(90deg, #030304, rgb(8, 8, 85));
+    height: 300px;
+    width: 100%;
+    margin-top: 5px;
+}
+.con-text h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+#con-box{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.boxes1 h2{
+    color: rgb(196, 195, 195);
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.boxes1 h4{
+    color: white;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+
+.boxes2{
+    margin-bottom: 80px;
+}
+
+.boxes2 h2{
+    color: rgb(196, 195, 195);
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.boxes2 a{
+    color: aqua;
+    font-weight: 100;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+
+
+.message-box input{
+    width: 70%;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+}
+
+.message-box textarea{
+    width: 70%;
+    height: 70px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+}
+
+.message-box input,textarea::placeholder{
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.message-box button{
+    width: 30%;
+    height: 40px;
+    font-size: 20px;
+    color: grey;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    margin-left: 40%;
+    
+}
+
+
+footer{
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(-90deg, #030304, rgb(8, 8, 85));
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 450px) {
+
+    #navbar .image-t{
+        width: 50%;
+        margin-top: -32%;
+        opacity: 30%;
+    }
+
+    #image-edit img{
+        width: 100%;
+        margin-left: 40%;
+        
+    }
+
+    .logo h1{
+        font-size: 20px;
+        color: white;
+    }
+    
+    .links a{
+        text-decoration: none;
+        color: white;
+        padding: 2px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    
+    #home{
+       flex-direction: column;
+    }
+    
+    #heading{
+        margin-left: 9%;
+        margin-top: 10%;
+        color: white;
+    }
+    
+    #heading .resume{
+        width: 20%;
+        padding: 5px;
+        border-radius: 10px;
+        text-decoration: none;
+        border: none;
+        font-weight: bold;
+        color: white;
+        font-size: 15px;
+    }
+    
+    .resume:hover{
+        background-color: aqua ;
+        color: #030304 !important;
+    }
+    
+    #heading h3{
+        font-size: 15px;
+        padding-bottom: 7px;
+    }
+    
+    #heading h1{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    
+    #heading span{
+        color: aqua;
+    }
+    
+    #heading p{
+        padding-top: 7px;
+        padding-bottom: 10px;
+        font-size: 10px;
+        width: 70%;
+    }
+
+    #heading hr{
+        width: 70%;
+    }
+    
+    #image-edit img{
+        width: 80%;
+        margin-left: 9%;
+        margin-top: 10%;
+        
+    }
+    
+    #about{
+        height: 600px;
+        width: 100%;
+        margin-top: 5px;
+        background: linear-gradient(90deg, #030304, rgb(8, 8, 85));
+    }
+    
+    
+    .head h1{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 25px;
+        color: white;
+        text-align: center;
+    }
+    
+    #contain{
+        flex-direction: column;
+        margin-top: -5%;
+    }   
+    #text-add h3{
+        color: white;
+        margin-top: -4%;
+        font-size: 12px;
+
+    }
+
+    #text-add{
+        margin-top: -5%;
+        padding-left: 10%;
+        width: 100%;
+    }
+    
+    #text-add h1{
+        color: yellow;
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        width: 80%;
+       
+    }
+    
+    #text-add hr{
+        width: 70%;
+    }
+    
+    #text-add h4{
+        color: white;
+        padding-top: 10px;
+        width: 80%;
+    }
+    
+    #text-add span{
+        color: aqua;
+    }
+    
+    #boxs{
+        height: 600px;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    #skills{
+        height: 600px;
+        width: 100%;
+        text-align: center;
+        background: linear-gradient(-90deg, #030304, rgb(8, 8, 85));
+        margin-top: 5px;
+    }
+    
+    #box1 img{
+        height: 150px;
+        width: 80%;
+    }
+    
+    #box1 h1{
+        color: white;
+        font-size: 20px;
+    }
+    
+    #box1 p{
+        color: aqua;
+        font-size: 10px;
+    }
+    
+    #skills-text h1{
+        color: white;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+    
+    #contact{
+        height: 650px;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .con-text h1{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+    
+ 
+#con-box{
+    flex-direction: column;
+}
+
+.boxes1 h2{
+    color: rgb(196, 195, 195);
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+.boxes1{
+    margin-right: 55px;
+    margin-bottom: 10%;
+}
+
+.boxes1 h4{
+    color: white;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+
+.boxes2{
+    margin-bottom: 10%;
+    margin-right: 55.5%;
+}
+
+.boxes2 h2{
+    color: rgb(196, 195, 195);
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.boxes2 a{
+    color: aqua;
+    font-weight: 100;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.boxes3{
+    margin-left: 20px;
+}
+
+.message-box input{
+    min-width: 80%;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+}
+
+.message-box textarea{
+    width: 80%;
+    height: 70px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+}
+
+.message-box input,textarea::placeholder{
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.message-box button{
+    width: 30%;
+    height: 40px;
+    font-size: 20px;
+    color: grey;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    margin-left: 50%;
+    
+}
+
+
+footer{
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(-90deg, #030304, rgb(8, 8, 85));
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 12px;
+}
+}
